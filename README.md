@@ -1,0 +1,1 @@
+# Symfony Messenger component implementation for Joomla

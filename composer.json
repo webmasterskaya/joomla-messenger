@@ -1,0 +1,22 @@
+{
+	"name": "webmasterskaya/joomla-messenger",
+	"type": "project",
+	"require": {
+		"php": ">=8.1",
+		"symfony/messenger": "~6.4.15"
+	},
+	"minimum-stability": "stable",
+	"replace": {
+		"psr/log": "*",
+		"psr/clock": "*",
+		"symfony/polyfill-php83": "*",
+		"symfony/deprecation-contracts": "*"
+	},
+	"config": {
+		"optimize-autoloader": true,
+		"platform": {
+			"php": "8.1.0"
+		},
+		"vendor-dir": "lib_message_queue/vendor"
+	}
+}
